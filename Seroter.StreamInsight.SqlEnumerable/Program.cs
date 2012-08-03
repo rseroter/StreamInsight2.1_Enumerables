@@ -204,16 +204,11 @@ namespace Seroter.StreamInsight.SqlEnumerable
         }
     }
 
-    [DataContract]
     public class ServerEvent
     {
-        [DataMember]
         public int Id { get; set; }
-        [DataMember]
         public string ServerName { get; set; }
-        [DataMember]
         public string Level { get; set; }
-        [DataMember]
         public DateTime Timestamp { get; set; }
     }
 
